@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/ais-helloword/api/getProduct/:id" method="GET">
+        <service class="Ais\Helloword\Api\ProductRepositoryInterface" method="getItem" />
+        <resources>
+            <resource ref="Ais_Helloword::products_get" />
+        </resources>
+    </route>
+    <route url="/V1/ais-helloword/api/setDescription" method="PUT">
+        <service class="Ais\Helloword\Api\ProductRepositoryInterface" method="setDescription" />
+        <resources>
+            <resource ref="Ais_Helloword::products_set_description" />
+        </resources>
+    </route>
+</routes>
