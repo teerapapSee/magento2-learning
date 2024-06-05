@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Ais_Helloword::manager" title="Ais Menu" module="Ais_Helloword" sortOrder="10" resource="Ais_Helloword::manager"/>
+        <add id="Ais_Helloword::manager" title="Ais Helloword" module="Ais_Helloword" sortOrder="10" resource="Ais_Helloword::manager"/>
         <add id="Ais_Helloword::employee" title="Employee Manager" module="Ais_Helloword" sortOrder="0" parent="Ais_Helloword::manager"
                 action="helloword/employee" resource="Ais_Helloword::employee"/>
     </menu>

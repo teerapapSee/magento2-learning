@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ais_Backend::manager" title="Ais Menu" module="Ais_Backend" sortOrder="10" resource="Ais_Backend::manager"/>
+        <add id="Ais_Backend::employee" title="Employee Manager" module="Ais_Backend" sortOrder="0" parent="Ais_Backend::manager"
+                action="backend/employee" resource="Ais_Backend::employee"/>
+    </menu>
+</config>

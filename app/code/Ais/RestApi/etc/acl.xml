@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+   <acl>
+       <resources>
+           <resource id="Magento_Backend::admin">
+               <resource id="Ais_RestApi::products" title="Dev API - Products"
+                         translate="title" sortOrder="110">
+                    <resource id="Ais_RestApi::products_get" title="Get product"
+                                translate="title" sortOrder="10" />
+                    <resource id="Ais_RestApi::products_set_description" title="Set description"
+                                translate="title" sortOrder="20" />
+               </resource>
+           </resource>
+       </resources>
+   </acl>
+</config>
