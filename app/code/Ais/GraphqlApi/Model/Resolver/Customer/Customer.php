@@ -5,7 +5,7 @@
  * @package Mag_Mohit
  */
 
-namespace Ais\GraphqlApi\Model\Resolver;
+namespace Ais\GraphqlApi\Model\Resolver\Customer;
 
 use Magento\Authorization\Model\UserContextInterface;
 use Magento\Framework\GraphQl\Schema\Type\ResolveInfo;

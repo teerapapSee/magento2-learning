@@ -1,5 +1,5 @@
 type Query {
-    testcustomer( email: String @doc(description: "email of the customer")): Testcustomer @resolver(class:"Ais\\GraphqlApi\\Model\\Resolver\\Customer") @doc(description:"The testcustomer query returns information about a customer") @cache(cacheable: false)
+    testcustomer( email: String @doc(description: "email of the customer")): Testcustomer @resolver(class:"Ais\\GraphqlApi\\Model\\Resolver\\Customer\\Customer") @doc(description:"The testcustomer query returns information about a customer") @cache(cacheable: false)
 }
 type Testcustomer @doc(description: "Testcustomer defines the customer name and other details") {
     entity_id: Int
