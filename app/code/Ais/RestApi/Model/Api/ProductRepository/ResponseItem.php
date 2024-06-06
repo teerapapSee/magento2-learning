@@ -1,6 +1,6 @@
 <?php
-namespace Ais\RestApi\Model\Api;
-use Ais\RestApi\Api\ResponseItemInterface;
+namespace Ais\RestApi\Model\Api\ProductRepository;
+use Ais\RestApi\Api\ProductRepository\ResponseItemInterface;
 use Magento\Framework\DataObject;
 /**
  * Class ResponseItem

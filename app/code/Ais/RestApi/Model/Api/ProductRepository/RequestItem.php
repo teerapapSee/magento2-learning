@@ -1,6 +1,6 @@
 <?php
-namespace Ais\RestApi\Model\Api;
-use Ais\RestApi\Api\RequestItemInterface;
+namespace Ais\RestApi\Model\Api\ProductRepository;
+use Ais\RestApi\Api\ProductRepository\RequestItemInterface;
 use Magento\Framework\DataObject;
 /**
  * Class RequestItem

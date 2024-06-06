@@ -1,5 +1,5 @@
 <?php
-namespace Ais\RestApi\Api;
+namespace Ais\RestApi\Api\ProductRepository;
 interface RequestItemInterface
 {
     const DATA_ID = 'id';
